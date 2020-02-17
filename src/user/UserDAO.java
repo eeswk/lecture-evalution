@@ -105,7 +105,7 @@ public class UserDAO {
     }
 
     public String getUserEmail(String userID) {
-        String sql ="select userEamil from user where userID = ?";
+        String sql ="select userEmail from user where userID = ?";
         Connection conn = null;
         PreparedStatement psmt = null;
         ResultSet rs = null;
