@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class UserDAO {
 
     public int login(String userID, String userPassword) {
-        String sql ="select userPassword form user where userID = ?";
+        String sql ="select userPassword from user where userID = ?";
         Connection conn = null;
         PreparedStatement psmt = null;
         ResultSet rs = null;
