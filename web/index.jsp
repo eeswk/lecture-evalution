@@ -237,7 +237,7 @@
               </div>
               <div class="form-group">
                 <label>제목</label>
-                <input type="text" name="evaluationTime" class="form-control" maxlength="30">
+                <input type="text" name="evaluationTitle" class="form-control" maxlength="30">
               </div>
               <div class="form-group">
                 <label>내용</label>
@@ -266,7 +266,7 @@
                 </div>
                 <div class="form-group col-sm-3">
                   <label>널널</label>
-                  <select name="comforableScore" class="form-control">
+                  <select name="comfortableScore" class="form-control">
                     <option value="A" selected>A</option>
                     <option value="B">B</option>
                     <option value="C">C</option>
